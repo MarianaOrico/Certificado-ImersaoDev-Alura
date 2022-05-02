@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(236.85deg, #2b4c77 27.26%, #90a8c5 96.03%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background: #ECF4FF;
+    color: #1C1C1C;
+    margin: 64px;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #2e2e2e;
+    padding: 64px;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 205px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-right: 30px;
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.titulo h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.titulo a {
+    text-decoration: none;
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(236.85deg, #26466e 27.26%, #7b94b3 96.03%);
+    margin-top: 32px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px, rgb(16, 16, 16, 0.42);
+    border-radius: 20px;
+}
+
+.projetos ul {
+    color: black;
+    font-size: 28px;
+}
+
+.projetos li {
+    color: black;
+    font-size: 20px;
+    list-style-type: none;
+    margin-left: 42px;
+    line-height: 40px;
+}
+
+.projetos a {
+    color: black;
+    text-decoration: none;
+}
